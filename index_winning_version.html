@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,20 +81,6 @@
             30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
             40%, 60% { transform: translate3d(4px, 0, 0); }
         }
-
-        @keyframes clown-crazy {
-            0% { transform: scale(1) rotate(0deg); }
-            25% { transform: scale(1.2) rotate(-15deg); }
-            50% { transform: scale(0.9) rotate(15deg); }
-            75% { transform: scale(1.3) rotate(-5deg); }
-            100% { transform: scale(1) rotate(0deg); }
-        }
-
-        @keyframes brutal-load {
-            0% { width: 0%; }
-            50% { width: 100%; }
-            100% { width: 0%; transform: translateX(100%); }
-        }
         
         .brutal-input {
             border: 3px solid #000;
@@ -116,16 +102,11 @@
     <div id="app-container" class="w-full max-w-md relative z-10 transition-all duration-500">
         
         <!-- App Header -->
-        <div class="text-center mb-8 relative">
-            <div class="inline-block bg-yellow-400 text-black border-4 border-black font-black px-4 py-2 transform -rotate-2 shadow-[4px_4px_0_0_#000] text-sm animate-pulse mb-4 z-20">
-                🏆 3RD PLACE GDG MINI-HACKATHON WINNER!
-            </div>
-            <div class="bg-white border-4 border-black p-4 shadow-brutal transform rotate-1">
-                <h1 class="text-4xl font-extrabold tracking-tight text-black uppercase">
-                    Deserve Ko Ba To?!?
-                </h1>
-                <p class="text-black font-bold mt-1 text-sm bg-pink-300 inline-block px-2 py-1 border-2 border-black shadow-[2px_2px_0px_0px_#000]">The Financial Delusion Enabler</p>
-            </div>
+        <div class="text-center mb-8 bg-white border-4 border-black p-4 shadow-brutal transform -rotate-2">
+            <h1 class="text-4xl font-extrabold tracking-tight text-black uppercase">
+                Deserve Ko Ba To?!?
+            </h1>
+            <p class="text-black font-bold mt-1 text-sm bg-pink-300 inline-block px-2 py-1 border-2 border-black shadow-[2px_2px_0px_0px_#000]">The Financial Delusion Enabler</p>
         </div>
 
         <!-- ========================================== -->
@@ -155,7 +136,7 @@
                     </div>
                     <button type="button" id="btn-next-1"
                             class="w-full py-4 mt-4 bg-pink-400 hover:bg-pink-300 text-black border-4 border-black font-black text-xl uppercase tracking-wider shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75">
-                        NEXT ->
+                        NEXT Γ₧í∩╕Å
                     </button>
                 </div>
 
@@ -169,11 +150,11 @@
                     <div class="flex gap-2">
                         <button type="button" id="btn-back-2"
                                 class="w-1/4 py-4 mt-4 bg-gray-200 hover:bg-gray-300 text-black border-4 border-black font-black text-xl uppercase tracking-wider shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75">
-                            <- BACK
+                            Γ¼à∩╕Å
                         </button>
                         <button type="button" id="btn-next-2"
                                 class="w-3/4 py-4 mt-4 bg-pink-400 hover:bg-pink-300 text-black border-4 border-black font-black text-xl uppercase tracking-wider shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75">
-                            NEXT ->
+                            NEXT Γ₧í∩╕Å
                         </button>
                     </div>
                 </div>
@@ -188,11 +169,11 @@
                     <div class="flex gap-2">
                         <button type="button" id="btn-back-3"
                                 class="w-1/4 py-4 mt-4 bg-gray-200 hover:bg-gray-300 text-black border-4 border-black font-black text-xl uppercase tracking-wider shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75">
-                            <- BACK
+                            Γ¼à∩╕Å
                         </button>
                         <button type="submit" 
                                 class="w-3/4 py-4 mt-4 bg-cyan-400 hover:bg-cyan-300 text-black border-4 border-black font-black text-xl uppercase tracking-wider shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75 active:bg-cyan-500">
-                            CALCULATE!
+                            CALCULATE ≡ƒÆ╕
                         </button>
                     </div>
                 </div>
@@ -203,19 +184,11 @@
         <!-- ========================================== -->
         <!-- STEP 2: LOADING VIEW                       -->
         <!-- ========================================== -->
-        <div id="view-loading" class="hidden opacity-0 transition-opacity duration-300 w-full">
-            <div class="flex flex-col items-center justify-center py-16 space-y-6">
-                <div class="text-[100px] animate-[clown-crazy_0.5s_ease-in-out_infinite] drop-shadow-[4px_4px_0_rgba(0,0,0,1)]">🤡</div>
-                <div class="text-center bg-white border-4 border-black p-4 shadow-brutal transform rotate-2 w-full max-w-xs">
-                    <h2 class="text-2xl font-bold text-black uppercase">Consulting the Oracles...</h2>
-                    <p class="text-black mt-2 font-mono text-sm font-bold mb-4">Applying maximum Girl/Boy Math...</p>
-                    
-                    <!-- Brutalist Loading Bar -->
-                    <div class="w-full h-6 border-4 border-black bg-gray-200 relative overflow-hidden">
-                        <div class="absolute top-0 left-0 h-full bg-pink-400 border-r-4 border-black animate-[brutal-load_1.5s_ease-in-out_infinite]"></div>
-                    </div>
-                    <p class="mt-2 text-xs font-bold uppercase tracking-widest animate-pulse">Loading Please Wait...</p>
-                </div>
+        <div id="view-loading" class="hidden flex-col items-center justify-center py-16 space-y-6 opacity-0 transition-opacity duration-300">
+            <div class="text-[100px] animate-bounce drop-shadow-[4px_4px_0_rgba(0,0,0,1)]">≡ƒñí</div>
+            <div class="text-center bg-white border-4 border-black p-4 shadow-brutal transform rotate-2">
+                <h2 class="text-2xl font-bold text-black uppercase">Consulting the Oracles...</h2>
+                <p class="text-black mt-2 font-mono text-sm font-bold">Applying maximum Girl/Boy Math...</p>
             </div>
         </div>
 
@@ -270,7 +243,7 @@
             <!-- Reset Button -->
             <button id="btn-reset" 
                     class="w-full mt-12 py-4 bg-pink-400 hover:bg-pink-300 text-black border-4 border-black font-black text-lg uppercase tracking-widest shadow-brutal hover:shadow-brutal-hover hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-75">
-                I NEED ANOTHER EXCUSE
+                I Need Another Excuse ≡ƒÿ¡
             </button>
         </div>
 
@@ -478,10 +451,5 @@
         });
 
     </script>
-    
-    <!-- Version Tag -->
-    <div class="fixed bottom-2 right-4 text-xs font-black uppercase tracking-widest text-black opacity-50 z-0 hover:opacity-100 transition-opacity">
-        Patch 2.00
-    </div>
 </body>
 </html>
