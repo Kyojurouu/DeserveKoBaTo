@@ -1,6 +1,6 @@
 # 💸 Deserve Ko Ba To?!? 
-
 **The Financial Delusion Enabler**
+**🥉 3rd Place Winner - GDG Manila "Build with AI" Hackathon (Chaos-to-Code Category)**
 
 A hilariously toxic, neobrutalist-styled web application designed to judge your financial decisions. Powered by **Google Gemini 1.5 Flash**, this app acts as your passive-aggressive Filipino financial advisor, calculating whether you *deserve* to buy that item using fake "Girl Math" and "Boy Math" logic. 
 
