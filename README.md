@@ -1,4 +1,4 @@
-# 💸 Deserve Ko 'To.exe (The Financial Delusion Enabler)
+# 💸 Deserve Ko Ba To?!? (The Financial Delusion Enabler)
 **🥉 3rd Place Winner - GDG Manila "Build with AI" Hackathon (Chaos-to-Code Category)**
 
 We all know Large Language Models can write complex code and analyze massive datasets. But we asked the most important question: *Can an AI mathematically justify why a broke student should buy a ₱200 Iced Matcha Latte when they only have ₱250 in their bank account?*
